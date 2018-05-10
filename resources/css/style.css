@@ -7,9 +7,10 @@ html {
 .container {
   margin: 0 auto;
   width: 960px;
+  display: flex;
 }
 
-/* Header & Nav */
+/* header & nav */
 
 header {
   padding-top: 1rem;
@@ -19,43 +20,47 @@ header {
   font-size: 1rem;
 }
 
-header .container {
+header .container.header {
   background: cadetblue;
   color: white;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header div {
+header .logo {
   margin-left: 2rem;
   display: flex;
   align-items: center;
 }
 
-header div img {
+header .logo img {
   height: 1.5rem;
 }
 
-header div span {
+header .logo span {
   margin-left: 1rem;
 }
 
-header ul {
+header nav ul {
   margin: 1rem 0;
   display: flex;
 }
 
-header ul li {
+header nav ul li {
   margin-right: 2rem;
 }
 
-header h1 {
+header .container.strapline {
+  justify-content: flex-end;
+}
+
+header .container.strapline h1 {
+  margin: 10rem -2rem 0 0;
   padding: 1.5rem 5rem;
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
   background: white;
+  text-align: right;
   display: inline-flex;
-  justify-content: flex-end;
 }
