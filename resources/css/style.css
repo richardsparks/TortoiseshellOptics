@@ -64,3 +64,56 @@ header .container.strapline h1 {
   text-align: right;
   display: inline-flex;
 }
+
+/* service */
+
+.services {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.service {
+  margin: 0 3em;
+  width: 18%;
+  min-height: 8rem;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.service-img {
+  min-height: 5rem;
+}
+
+.service-img img {
+  max-width: 5rem;
+}
+
+.service-img.paper img {
+  max-width: 3.5rem;
+}
+
+/* info */
+
+.info {
+  justify-content: center;
+}
+
+.info .column {
+  margin: 3em 2.5% 0 2.5%;
+  width: 35%;
+  background: red;
+}
+
+.info h2 {
+  width: 55%;
+  padding: 0.5rem 1.25rem;
+  background: cadetblue;
+  color: white;
+  font-weight: bold;
+}
+
+.info p {
+  margin-top: 1em;
+}
