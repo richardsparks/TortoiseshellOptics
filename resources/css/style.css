@@ -117,3 +117,25 @@ header .container.strapline h1 {
   margin-top: 1em;
   line-height: 1.4;
 }
+
+/* footer */
+
+footer.container {
+  margin-top: 4rem;
+  padding: 4rem 2rem;
+  background: azure;
+}
+
+footer .logo {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+footer .logo img {
+  height: 1.5rem;
+}
+
+footer .logo span {
+  margin-left: 1rem;
+}
