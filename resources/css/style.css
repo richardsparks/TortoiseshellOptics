@@ -118,7 +118,7 @@ header .container.strapline h1 {
 }
 
 .info p {
-  margin-top: 1em;
+  margin-top: 1rem;
   line-height: 1.4;
 }
 
@@ -231,6 +231,29 @@ footer .logo span {
   .service span {
     font-size: 0.77rem;
     line-height: 2;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .info .column {
+    margin: 3em 0 0 0;
+    width: 100%;
+
+  }
+
+  .info h2 {
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+
+  .info p {
+    margin: 1rem 0 4rem 0;
+    padding: 0 1rem;
+    font-size: 0.77rem;
+    line-height: 1.4;
   }
 
 }
