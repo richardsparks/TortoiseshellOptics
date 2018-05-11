@@ -139,3 +139,28 @@ footer .logo img {
 footer .logo span {
   margin-left: 1rem;
 }
+
+/* tablet */
+
+@media only screen and (max-width: 960px) {
+
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  header .container {
+    width: 100%;
+  }
+
+  header .container.strapline h1 {
+    margin: 5rem 2rem 0 0;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+/* mobile  */
+
+@media only screen and (max-width: 470px) {
+
+}
