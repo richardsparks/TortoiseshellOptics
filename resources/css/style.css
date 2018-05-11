@@ -46,6 +46,10 @@ header nav ul {
   display: flex;
 }
 
+header nav ul.slim {
+  display: none;
+}
+
 header nav ul li {
   margin-right: 2rem;
 }
@@ -176,10 +180,33 @@ footer .logo span {
     width: 70%;
   }
 
+}
+
 /* mobile  */
 
-@media only screen and (max-width: 470px) {
-  main {
-    background: red;
+@media only screen and (max-width: 650px) {
+
+  header nav ul.slim {
+    display: inline-block;
+  }
+  header nav ul.full {
+    display: none;
+  }
+
+  header {
+    height: 17rem;
+  }
+
+  header .container.strapline {
+    margin: 9rem 0 0 0;
+    padding: 1rem 0;
+    background: white;
+    justify-content: center;
+  }
+
+  header .container.strapline h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.33rem;
   }
 }
