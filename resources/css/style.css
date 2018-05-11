@@ -103,7 +103,6 @@ header .container.strapline h1 {
 .info .column {
   margin: 3em 2.5% 0 2.5%;
   width: 35%;
-  background: red;
 }
 
 .info h2 {
@@ -116,4 +115,5 @@ header .container.strapline h1 {
 
 .info p {
   margin-top: 1em;
+  line-height: 1.4;
 }
