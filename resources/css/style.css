@@ -209,30 +209,28 @@ footer .logo span {
     padding: 0;
     font-size: 1.33rem;
   }
-
 }
 
 @media only screen and (max-width: 550px) {
 
-.services {
-  margin: 2.23rem 0 0 0;
-  display: block;
-}
+  .services {
+    margin: 2.23rem 0 0 0;
+    display: block;
+  }
 
-.service {
-  margin: 1.54rem 0 0 0;
-  width: 100%;
-  min-height: 0;
-}
+  .service {
+    margin: 1.54rem 0 0 0;
+    width: 100%;
+    min-height: 0;
+  }
 
-.service-img {
-  min-height: 0;
-}
+  .service-img {
+    min-height: 0;
+  }
 
-.service-img img {
-  max-width: 5rem;
-}
+  .service span {
+    font-size: 0.77rem;
+    line-height: 2;
+  }
 
-.service-img.paper img {
-  max-width: 3.5rem;
 }
